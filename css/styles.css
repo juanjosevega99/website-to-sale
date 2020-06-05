@@ -31,3 +31,26 @@ nav li a {
 nav li a:hover {
   color: white;
 }
+
+/* ----------------------------- Main section */
+.main_section {
+  padding: 15%;
+  text-align: center;
+}
+
+.products {
+  padding: 15%;
+  display: flex;
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  background-image: url("../images/curve.png");
+}
+
+.product{
+  padding: 10px;
+}
+.product .content{
+  padding: 20px;
+  background-color: white;
+}
