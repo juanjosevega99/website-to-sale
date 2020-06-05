@@ -150,6 +150,10 @@ hr {
   color: var(--white-color);
 }
 
+.footer a {
+  color: var(--green-color);
+}
+
 /* ------------------------------------------- Sell */
 .container {
   min-height: calc(100vh - 14rem);
