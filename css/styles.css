@@ -168,24 +168,18 @@ hr {
 }
 
 .data { 
-  display: block;
+  /* display: block;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 18px; */
 
-  /* margin-top: var(--space);
+  margin-top: var(--space);
   width: 100%;
-  height: 55px;
+  padding: 5px;
   border-radius: 2px;
   border: 1px solid var(--black-color);
-  box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
-.payment_module .main_btn{
+.payment_module .main_button{
   margin-top: 10px;
-}
-
-.label {
-  display: block;
-  margin-top: 10px;
-  font-size: 18px;
 }
