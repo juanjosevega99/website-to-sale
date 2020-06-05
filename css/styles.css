@@ -16,7 +16,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
-p {
+p, label {
   font-size: var(--normal);
 }
 
@@ -148,4 +148,29 @@ hr {
   background-color: var(--black-color);
   padding: var(--space);
   color: var(--white-color);
+}
+
+/* ------------------------------------------- Sell */
+.container {
+  /* min-height: calc(100vh - 14rem); */
+}
+
+.payment_module {
+  background-color:var(--white-color);
+  box-shadow: var(--box);
+  padding:var(--space);
+}  
+.payment_module_images {
+  margin:auto;
+  text-align: center;
+  width: 100%;
+  max-width: 150px;
+}
+
+.payment_module input{
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
 }
