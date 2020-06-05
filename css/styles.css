@@ -16,31 +16,41 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-size: var(--normal);
+}
+
 nav {
   display: flex;
-  background-color: var(--green-color);
-  padding: var(--space);
-  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding: var(--space);
+  min-height: 60px;
+  background-color: var(--green-color);
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: var(--normal);
+}
+
+nav a:hover{
+  color: var(--white-color);
 }
 
 nav ul {
   display: flex;
 }
 
-nav li {
-  padding-left: 20px;
+nav ul li {
+  padding-right: 20px;
   list-style: none;
 }
 
-nav li a {
-  color: var(--black-color);
-  text-decoration: none;
-}
-
-nav li a:hover {
-  color: var(--white-color);
+hr {
+  opacity: .2;
 }
 
 /* ----------------------------- Main section */
@@ -52,30 +62,32 @@ nav li a:hover {
 .products {
   display: flex;
   padding: 15%;
-  max-height: 50px;
+  height: 95px;
   background-size: cover;
   background-position: center top;
+  background-repeat: no-repeat;
   background-image: url("../images/curve.png");
 }
 
 .product{
-  padding: var(--space);
-  margin-top: -240px;
-}
-.product .content{
-  padding: var(--space);
-  background-color: var(--white-color);
-  box-shadow: var(--box);
+  padding: 20px;
+  margin-top: -266px;
 }
 
-.img_content{
+.image-product{
   text-align: center;
+}
+
+.content{
+  padding: 20px;
+  background: var(--white-color);
+  border-radius: 3px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
 }
 
 .main_button {
   width: 100%;
   padding: var(--space);
-  font-size: var(--normal);
   background-color: var(--green-color);
   color: var(--white-color);
   border: 0;
@@ -84,5 +96,56 @@ nav li a:hover {
 }
 
 .main_button:hover{
-  background-color: #5e9e22;
+  background-color: #63a426;;
+}
+
+
+.benefits {
+  display: flex;
+  padding: 10px;
+}
+
+.benefit {
+  text-align: center;
+  padding: 20px;
+}
+
+.benefit img {
+  max-height: 100px;
+}
+
+.text_benefit {
+  text-align: justify;
+}
+
+
+.mentions {
+  display: flex;
+  padding: 5px;
+}
+.mention img {
+  width: 100%;
+}
+.h2.mention_title {
+  text-align: center;
+}
+.mention {
+  padding: var(--space);
+}
+.content_mention {
+  box-shadow: 0px 0 2px 1px #e6e5e9;;
+}
+.mention .text {
+  padding: var(--space);
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
+  color: var(--white-color);
 }
