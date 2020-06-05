@@ -39,9 +39,9 @@ nav li a:hover {
 }
 
 .products {
-  padding: 15%;
   display: flex;
-  height: 200px;
+  padding: 15%;
+  max-height: 50px;
   background-size: cover;
   background-position: center top;
   background-image: url("../images/curve.png");
@@ -49,8 +49,29 @@ nav li a:hover {
 
 .product{
   padding: 10px;
+  margin-top: -240px;
 }
 .product .content{
-  padding: 20px;
+  padding: 10px;
   background-color: white;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+
+.img_content{
+  text-align: center;
+}
+
+.main_button {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #7ACC2D;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #5e9e22;
 }
